@@ -8,5 +8,9 @@ namespace Craftings
 {
     class Program
     {
+        public static void Main()
+        {
+            Console.WriteLine("hej :3");
+        }
     }
 }
