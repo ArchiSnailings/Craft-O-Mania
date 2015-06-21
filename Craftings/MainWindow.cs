@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,12 +10,11 @@ using System.Windows.Forms;
 
 namespace Craftings
 {
-    class Program
+    public partial class MainWindow : Form
     {
-        public static void Main()
+        public MainWindow()
         {
-            MainWindow window = new MainWindow();
-            Application.Run(window);
+            InitializeComponent();
         }
     }
 }
