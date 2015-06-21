@@ -44,6 +44,7 @@
     <Compile Include="Network\INetworkClient.cs" />
     <Compile Include="Network\NetworkClient_0.1.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Render.cs" />
     <Compile Include="Tile.cs" />
   </ItemGroup>
   <ItemGroup>
