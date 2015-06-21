@@ -16,7 +16,8 @@ namespace Craftings
         {
             InitializeComponent();
             Graphics g = this.CreateGraphics();
-            g.DrawRectangle(Pens.Black, 0, 0, 100, 100);
+            g.FillRectangle(Brushes.Black, 100, 100, 200, 200);
         }
+        
     }
 }
