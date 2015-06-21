@@ -15,9 +15,13 @@ namespace Craftings
         public MainWindow()
         {
             InitializeComponent();
-            Graphics g = this.CreateGraphics();
-            g.FillRectangle(Brushes.Black, 100, 100, 200, 200);
+            this.Refresh();
         }
-        
+
+        private void OnPaint(object sender, PaintEventArgs pe)
+        {
+            Graphics g = pe.Graphics;
+            g.FillRectangle(Brushes.Black, 0, 0, 100, 100);
+        }
     }
 }
