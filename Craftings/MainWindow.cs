@@ -18,7 +18,7 @@ namespace Craftings
             this.Refresh();
         }
 
-        private void OnPaint(object sender, PaintEventArgs pe)
+        protected override void OnPaint(PaintEventArgs pe)
         {
             Graphics g = pe.Graphics;
             g.FillRectangle(Brushes.Black, 0, 0, 100, 100);
