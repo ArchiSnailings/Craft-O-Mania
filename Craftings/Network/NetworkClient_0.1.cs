@@ -8,6 +8,6 @@ namespace Craftings.Network
 {
     class NetworkClient_0 : INetworkClient
     {
-        
+        public NetworkClient_0() { Console.WriteLine("Shit not working yo"); }
     }
 }
